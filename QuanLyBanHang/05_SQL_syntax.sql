@@ -1,0 +1,1 @@
+-- LIKE: like a%, like %a, line %b%
