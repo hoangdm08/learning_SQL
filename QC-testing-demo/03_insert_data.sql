@@ -2,12 +2,11 @@
 -- Insert dữ liệu mẫu, mỗi bảng 1 dòng
 
 USE QC_Testing_DB;
-GO
 
 -- users
 INSERT INTO dbo.users (full_name, email, [password], [status], created_at)
-VALUES (N'Nguyen Van A', 'nguyenvana@example.com', N'123456', 'active', '2026-04-05 09:00:00');
-GO
+VALUES (N'Nguyen Van D', 'nguyenvanaD@example.com', N'123456', 'inactive', '2026-04-011 09:00:00'),
+(N'Nguyen Van E', 'nguyenvanE@example.com', N'123456', 'active', '2026-04-12 09:00:00');
 
 -- login_history
 INSERT INTO dbo.login_history (user_id, login_time, ip_address, result)
