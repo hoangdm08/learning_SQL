@@ -12,7 +12,8 @@ VALUES
 	(N'Ngũ cốc',N'Bánh mì, gạo, ...'),
 	(N'Thịt',N'Các loại thịt'),
 	(N'Đồ khô',N'Thực phẩm sấy khô'),
-	(N'Đồ biển',N'Cá, cua biển')
+	(N'Đồ biển',N'Cá, cua biển'),
+	(N'Đồ nhắm',N'Tôm hấp bia, BaBa um chuối đậu')
 
 
 INSERT INTO NhaCungcap
